@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+*{
+    margin:0px; padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background-color: #222222;
+}
+
+.header{
+    
+}
+.nav-header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.nav-header a{
+    color: white;
+}
+.nav-redes{
+    display: flex;
+    align-items: center;
+}
+.nav-redes a{
+    font-size: 1rem;
+    margin-right: 15px;
+}
+.nav-redes a:hover{
+    color: #ad11b3;
+    transition: 0.2s ease;
+    transform: scale(1.2);
+}
+.nav-redes button {
+    background-color: transparent;
+    border: 2px solid #d112d8;
+    border-radius: 5px;
+    margin-left:10px;
+    padding: 5px;
+    width: 60px;
+    color: white;
+}
+.nav-redes button:hover{
+    background-color:#96029b;
+    transition: 0.2s ease;
+    transform: scale(1.1);
+}
+.name:hover{
+    color: #96029b;
+}
+.header-bg{
+    margin: 15px;
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+.div-profile{
+    position: relative;
+    padding: 30px;
+    color: white;
+}
+.div-profile img{
+    position: absolute;
+    border-radius: 50%;
+    width: 6rem;
+    top: -4.5rem;
+    left: 3rem;
+}
+.btns-profile{
+    margin-top: 10px;
+}
+
+.btns-profile button{
+    background-color: #313131;
+    color: white;
+    padding: 4px 20px;
+    border: none;
+}
+.btns-profile .active{
+    background-color:#96029b;
+}
+.about{
+    border:2px solid #313131;
+    border-radius: 20px;
+    margin: 30px 20px;
+    padding: 20px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about button{
+    margin-right: 20px;
+    padding: 6px 13px;
+    text-align: center;
+    background-color: #96029b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+}
+.about button:hover{
+    background-color: white;
+    color: #96029b;
+}
+.exp{
+    border:2px solid #313131;
+    border-radius: 20px;
+    margin: 30px 20px;
+    padding: 20px 10px;
+    color: white;
+}
+.exp-title{
+    display: flex;
+    justify-content: space-between;
+}
+.exp-title button{
+    margin-right: 20px;
+    padding: 6px 13px;
+    text-align: center;
+    background-color: #96029b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+}
+.exp-title h2{
+    margin-bottom: 20px;
+}
+
+.article-exp{
+    display: flex;
+    align-items: center;
+}
+.info-exp{
+    margin-left:20px
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.article button{
+    margin-right: 20px;
+    padding: 6px 13px;
+    text-align: center;
+    background-color: #96029b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+}
+.article-exp  img{
+    width: 4rem;
+    
+}
