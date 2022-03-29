@@ -83,6 +83,7 @@ body{
     color: white;
     padding: 4px 20px;
     border: none;
+    cursor: pointer;
 }
 .btns-profile .active{
     background-color:#96029b;
@@ -162,6 +163,11 @@ body{
     font-size: 1.1rem;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.article button:hover{
+    background-color: white;
+    color: #96029b;
 }
 .article-exp  img{
     width: 4rem;
